@@ -1,4 +1,5 @@
 html, body, .wrapper {
+    font-size: 1.5rem;
     height: 100%;
     margin: 0;
 }
@@ -30,6 +31,10 @@ html, body, .wrapper {
     text-decoration: none;
 }
 
+.blog-button-text {
+    margin: 10px;
+}
+
 .blurb {
     margin: auto;
     width: 75%;
@@ -59,7 +64,7 @@ html, body, .wrapper {
 
 .social-links,
 .title {
-    font-size: 1.125rem;
+    font-size: 1.125em;
 }
 
 .wrapper {
@@ -70,11 +75,18 @@ html, body, .wrapper {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     justify-content: space-between;
 }
 
 @media (min-width: 992px) {
+    html, body, .wrapper {
+        font-size: 1rem;
+    }
+
+    .blog-button-text {
+        margin: auto;
+    }
+
     .blurb {
         margin: auto;
         width: auto;
